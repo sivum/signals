@@ -17,6 +17,7 @@ Signals
 
 Table
 
+``` sql
 create table Signals.Signals
 (
     Id    bigint auto_increment
@@ -24,6 +25,7 @@ create table Signals.Signals
     level varchar(20) null,
     noise double      null
 );
+```
 
 
 
