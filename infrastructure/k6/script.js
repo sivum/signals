@@ -4,7 +4,7 @@ import { uuidv4 } from 'https://jslib.k6.io/k6-utils/1.4.0/index.js';
 //docker run --rm -i --network=host grafana/k6:0.50.0 run - < script.js
 
 export const options = {
-    vus: 50,
+    vus: 200,
     duration: '60s',
 };
 export default function () {
